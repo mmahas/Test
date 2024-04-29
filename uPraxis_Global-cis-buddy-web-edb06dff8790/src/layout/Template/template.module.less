@@ -1,0 +1,128 @@
+@import '../../styles/appvar.less';
+
+.container {
+  height: 100vh;
+  background-color: @primary-color;
+  display: flex;
+  @media (max-width: 1301px) {
+    display: none;
+  }
+}
+
+.menuItems {
+  display: flex;
+  color: white;
+  background-color: rgb(40 108 100);
+  width: 300px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 0 30px 30px 0;
+}
+
+.flexTitle {
+  display: flex;
+}
+
+.TemplateIcon {
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.switchButton {
+  background-color: rgb(40 108 100);
+  border-color: rgb(40 108 100);
+  color: rgb(129 188 182);
+}
+
+.switchButton1 Button:hover {
+  background-color: rgb(40 108 100);
+  border-color: rgb(40 108 100);
+  color: rgb(129 188 182);
+}
+
+.switchButton1 Button:focus {
+  background-color: rgb(40 108 100);
+  border-color: rgb(40 108 100);
+  color: rgb(129 188 182);
+}
+
+.TitleMenu {
+  list-style: none;
+}
+
+.subMenu1 {
+  list-style: none;
+  padding-top: 15px;
+}
+
+.subMenu1 Button:hover {
+  color: @font-color;
+}
+
+.subMenu1 Button:focus {
+  color: @font-color;
+}
+
+.subMenu2 {
+  list-style: none;
+  // padding-top: 1px;
+}
+
+.subMenu2 Button:hover {
+  color: @font-color;
+}
+
+.subMenu2 Button:focus {
+  color: @font-color;
+}
+
+.falseColor {
+  color: @font-color;
+  font-size: 16px;
+}
+
+.trueColor {
+  color: rgb(129 188 182);
+  font-size: 16px;
+}
+
+.tempManTitle {
+  // font-weight: bolder;
+  font-size: 16px;
+}
+
+.cisTitleImage {
+  height: 40px;
+  width: 186px;
+}
+
+.cisTitleImageAlignment {
+  padding-left: 30px;
+}
+
+.barContainer {
+  padding-top: 47pt;
+  width: 20%;
+}
+
+.cardTemplate {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  transform: translateY(-50%);
+
+  @media (max-width: 1650px) {
+    width: 77%;
+    left: 22%;
+  }
+  @media (max-width: 1450px) {
+    width: 75%;
+    left: 24%;
+  }
+}
+
+.barAlignment {
+  margin-left: -2.5rem;
+  padding-top: 50px;
+}

@@ -1,0 +1,146 @@
+@import '../../styles/appvar.less';
+
+.requestTable Table {
+  border: 1px solid rgb(242 242 242);
+  border-collapse: none;
+
+  :global {
+    .ant-pagination-item-active {
+      border-color: @primary-color;
+    }
+    .ant-pagination-item-active a {
+      color: @primary-color;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: @primary-color;
+      border-color: @primary-color;
+    }
+    .ant-table-tbody > tr.ant-table-row-selected > td {
+      background: rgba(106, 247, 125, 0.068);
+    }
+  }
+}
+
+.requestTable {
+  :global {
+    .ant-pagination-item-active {
+      border-color: @primary-color;
+    }
+    .ant-pagination-item-active a {
+      color: @primary-color;
+    }
+  }
+}
+
+.requestTable Table th {
+  background-color: rgb(242 242 242);
+  font-weight: 600;
+}
+
+.requestTable Table td {
+  border-color: white;
+  color: rgb(151 151 151);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+.formContainer {
+  padding-left: 35px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  // text-align: center;
+}
+
+.formLabel Button:hover {
+  background-color: rgb(40 108 100);
+  border-color: rgb(40 108 100);
+  color: @font-color;
+}
+
+.formLabel Button:focus {
+  background-color: rgb(40 108 100);
+  border-color: rgb(40 108 100);
+  color: @font-color;
+}
+
+.formUpload {
+  :global {
+    .ant-upload.ant-upload-select-picture-card > .ant-upload {
+      background: rgb(242 255 254);
+      border: 2px solid @primary-color !important;
+      border-radius: 15px;
+      color: @primary-color;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      width: 150px;
+      height: 120px;
+      margin-left: -0.5rem;
+    }
+    .ant-form-item-explain-error {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.formInputItem {
+  :global {
+    .ant-form-item-explain-error {
+      // padding-top: 10px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.formInputItem Input::placeholder {
+  color: @primary-color;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formInputItem Input:hover {
+  border-color: @primary-color;
+}
+
+.formInput {
+  background-color: rgb(242 255 254);
+  border: 2px solid @primary-color;
+  border-radius: 5px;
+  margin-left: -0.5rem;
+  width: 300px;
+}
+
+.formInputItem {
+  :global {
+    .ant-form-item-explain-error {
+      // padding-top: 10px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.formInputItem Input::placeholder {
+  color: @primary-color;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formInputItem Input:hover {
+  border-color: @primary-color;
+}
+
+.formButton {
+  width: 120px;
+  height: 50px;
+  font-size: 22px;
+  background-color: @primary-color;
+  border-color: @primary-color;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: -1rem;
+  margin-left: -0.5rem;
+}
